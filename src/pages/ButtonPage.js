@@ -1,11 +1,9 @@
-import Button from '../Button';
+import Button from '../components/Button';
 import { GoBell } from 'react-icons/go';
 
 function ButtonPage() {
 
-  const handleClick = () => {
-    console.log("Yh there");
-  };
+  const handleClick = () => {};
 
   return (
     <div>
@@ -16,7 +14,7 @@ function ButtonPage() {
         </Button>
       </div>
       <div>
-        <Button danger outline rounded onMouseMove ={handleClick}>
+        <Button danger outline rounded onMouseMove={handleClick}>
           Buy Now!
         </Button>
       </div>
